@@ -4,7 +4,6 @@ const app = express();
 const cors = require('cors')
 
 app.use(cors())
-//middleware
 app.use(express.json());
 
 const studentRouter = require("./routes/StudentRoutes");
